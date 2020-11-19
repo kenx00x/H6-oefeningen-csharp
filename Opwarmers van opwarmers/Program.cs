@@ -61,7 +61,7 @@ namespace Opwarmers_van_opwarmers
                 }
             } while (n != -32768);
             Console.WriteLine($"postieve = {uitkomstpos}");
-            Console.WriteLine($"negatieve = {uitkomstneg}");
+            Console.WriteLine($"negatieve = {uitkomstneg-1}");
             Console.WriteLine($"nullen = {uitkomstnul}");
             Console.WriteLine();
 
@@ -91,6 +91,25 @@ namespace Opwarmers_van_opwarmers
                 n += int.Parse(getal.Substring(i, 1));
             }
             Console.WriteLine($"Som = {n}");
+            Console.WriteLine();
+
+            //6
+            Console.WriteLine("6");
+            n = 0;
+            int aantal=0;
+            decimal gemiddelde=0;
+            do
+            {
+                Console.Write("Geef getal in(negatief getal om af te sluiten): ");
+                aantal++;
+                n = int.Parse(Console.ReadLine());
+                if (n>=0)
+                {
+                    gemiddelde += n;
+                }
+            } while (n>=0);
+            Console.WriteLine($"Gemiddelde = {Math.Round(gemiddelde/Convert.ToDecimal(aantal),0)}");
+            Console.WriteLine();
         }
     }
 }
