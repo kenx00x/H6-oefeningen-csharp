@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opwarmers van opwarmers", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Oefeningen deel 1", "Oefeningen deel 1", "{ED031796-AEE8-48DE-A687-8C1E40568779}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Oefeningen deel 2", "Oefeningen deel 2", "{EE138944-0C47-4913-B7A7-E5CA5DB882EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Oefeningen deel 3", "Oefeningen deel 3", "{9403A03B-46E0-4620-BE74-17BAB298B8D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
