@@ -9,7 +9,7 @@ namespace Opwarmers_1
             //Toon alle natuurlijke getallen van 1 tot n.
             Console.Write("Geef n: ");
             int n = int.Parse(Console.ReadLine());
-            for (int i = 1; i < n+1; i++)
+            for (int i = 1; i < n + 1; i++)
             {
                 Console.WriteLine(i);
             }
@@ -24,7 +24,7 @@ namespace Opwarmers_1
             Console.WriteLine();
 
             //Toon alle even getallen tussen 1 en 100.
-            for (int i = 1; i < 101; i+=2)
+            for (int i = 1; i < 101; i += 2)
             {
                 Console.WriteLine(i);
             }
@@ -41,7 +41,7 @@ namespace Opwarmers_1
             int j = 0;
             Console.Write("Geef n: ");
             n = int.Parse(Console.ReadLine());
-            for (int i = 1; i < n+1; i++)
+            for (int i = 1; i < n + 1; i++)
             {
                 j += i;
             }
@@ -52,7 +52,7 @@ namespace Opwarmers_1
             j = 0;
             Console.Write("Geef n: ");
             n = int.Parse(Console.ReadLine());
-            for (int i = 1; i < n+1; i += 2)
+            for (int i = 1; i < n + 1; i += 2)
             {
                 j += i;
             }
