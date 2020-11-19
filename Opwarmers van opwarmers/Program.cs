@@ -7,6 +7,7 @@ namespace Opwarmers_van_opwarmers
         static void Main(string[] args)
         {
             //1
+            Console.WriteLine("1");
             int n;
             int uitkomst = 0;
             do
@@ -19,6 +20,7 @@ namespace Opwarmers_van_opwarmers
             Console.WriteLine();
 
             //2
+            Console.WriteLine("2");
             int uitkomstpos = 0;
             int uitkomstneg = 0;
             do
@@ -39,6 +41,7 @@ namespace Opwarmers_van_opwarmers
             Console.WriteLine();
 
             //3
+            Console.WriteLine("3");
             int uitkomstnul = 0;
             do
             {
@@ -63,6 +66,7 @@ namespace Opwarmers_van_opwarmers
             Console.WriteLine();
 
             //4
+            Console.WriteLine("4");
             uitkomst = 1;
             do
             {
@@ -75,6 +79,18 @@ namespace Opwarmers_van_opwarmers
             } while (n != 0);
             Console.WriteLine($"product = {uitkomst}");
             Console.WriteLine();
+
+            //5
+            Console.WriteLine("5");
+            Console.Write("Geef getal in: ");
+            string getal = Console.ReadLine();
+            int lengte = getal.Length;
+            n = 0;
+            for (int i = 0; i < lengte; i++)
+            {
+                n += int.Parse(getal.Substring(i, 1));
+            }
+            Console.WriteLine($"Som = {n}");
         }
     }
 }
