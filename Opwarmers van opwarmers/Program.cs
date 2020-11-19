@@ -110,6 +110,22 @@ namespace Opwarmers_van_opwarmers
             } while (n>=0);
             Console.WriteLine($"Gemiddelde = {Math.Round(gemiddelde/Convert.ToDecimal(aantal),0)}");
             Console.WriteLine();
+
+            //7
+            Console.WriteLine("7");
+            string strKleinsteGetal = "";
+            n = 0;
+            do
+            {
+                Console.Write("Geef getal in(-32768 om te stoppen): ");
+                n = int.Parse(Console.ReadLine());
+                if ((strKleinsteGetal == "" || n<int.Parse(strKleinsteGetal) )&& n != -32768)
+                {
+                    strKleinsteGetal = Convert.ToString(n);
+                }
+            } while (n != -32768);
+            Console.WriteLine($"Kleinste getal = {strKleinsteGetal}");
+            Console.WriteLine();
         }
     }
 }
