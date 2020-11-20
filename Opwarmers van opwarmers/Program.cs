@@ -126,6 +126,20 @@ namespace Opwarmers_van_opwarmers
             } while (n != -32768);
             Console.WriteLine($"Kleinste getal = {strKleinsteGetal}");
             Console.WriteLine();
+
+            //8
+            Console.WriteLine("8");
+            n = -2147483648;
+            int oudGetal;
+            do
+            {
+                oudGetal = n;
+                n = int.Parse(Console.ReadLine());
+            } while (n > oudGetal);
+            Console.WriteLine("fout in sorteervolgorde");
+            Console.WriteLine();
+
+            //9
         }
     }
 }
