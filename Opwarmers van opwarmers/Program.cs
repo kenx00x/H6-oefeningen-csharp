@@ -133,6 +133,7 @@ namespace Opwarmers_van_opwarmers
             int oudGetal;
             do
             {
+                Console.Write("Geef getal in(Geef een getal in kleiner dan het vorige om te stopper): ");
                 oudGetal = n;
                 n = int.Parse(Console.ReadLine());
             } while (n > oudGetal);
@@ -140,6 +141,20 @@ namespace Opwarmers_van_opwarmers
             Console.WriteLine();
 
             //9
+            Console.WriteLine("9");
+            n=1;
+            aantal = 0;
+            gemiddelde = 0;
+            do
+            {
+                Console.Write("Geef getal in(geef 2 keer 0 in om te stoppen): ");
+                oudGetal = n;
+                n = int.Parse(Console.ReadLine());
+                gemiddelde += n;
+                aantal++;
+            } while (oudGetal !=0 || n != 0);
+            Console.WriteLine($"gemiddelde = {gemiddelde/(aantal-2)}");
+            Console.WriteLine();
         }
     }
 }
