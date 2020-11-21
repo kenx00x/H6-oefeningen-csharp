@@ -227,6 +227,46 @@ namespace Opwarmers_van_opwarmers
             }
             Console.WriteLine(uwu);
             Console.WriteLine();
+            //13
+            Console.WriteLine("13");
+            decimal owo = 0;
+            for (int i = 1; i < 21; i++)
+            {
+                owo += i * 4;
+            }
+            Console.WriteLine(owo);
+            owo = 4;
+            for (int i = 1; i < 20; i++)
+            {
+                owo += 4 + (i * 6);
+            }
+            Console.WriteLine(owo);
+            owo = 1;
+            for (int i = 1; i < 20; i++)
+            {
+                owo += Convert.ToDecimal(Math.Pow(3, i));
+            }
+            Console.WriteLine(owo);
+            owo = 0;
+            for (int i = 1; i < 20; i++)
+            {
+                owo += Convert.ToDecimal(1.0 / (2.0 * i));
+            }
+            Console.WriteLine(owo);
+            owo = 1;
+            for (double i = 1; i < 20; i++)
+            {
+                owo += Convert.ToDecimal(1 / Math.Pow(2, i));
+            }
+            Console.WriteLine(owo);
+            owo = 1;
+            int idk = 3;
+            for (double i = 1; i < 20; i++)
+            {
+                owo += Convert.ToDecimal(1.0 / idk);
+                idk += idk + 1;
+            }
+            Console.WriteLine(owo);
         }
     }
 }
