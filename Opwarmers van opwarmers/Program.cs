@@ -167,7 +167,7 @@ namespace Opwarmers_van_opwarmers
             Console.WriteLine();
 
             //11
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i < 10; i++)
             {
                 Console.Write("Geef getal in: ");
                 n = int.Parse(Console.ReadLine());
@@ -187,6 +187,45 @@ namespace Opwarmers_van_opwarmers
                     }
                 }
             }
+            Console.WriteLine();
+            //12
+            Console.WriteLine("12");
+            decimal uwu = 0;
+            for (int i = 1; i < 31; i++)
+            {
+                uwu += i * 6;
+            }
+            Console.WriteLine(uwu);
+            uwu = 4;
+            for (int i = 1; i < 30; i++)
+            {
+                uwu += 4 + (i * 8);
+            }
+            Console.WriteLine(uwu);
+            uwu = 1;
+            for (int i = 1; i < 30; i++)
+            {
+                uwu += Convert.ToDecimal(Math.Pow(2, i));
+            }
+            Console.WriteLine(uwu);
+            uwu = 1;
+            for (int i = 1; i < 30; i++)
+            {
+                uwu += Convert.ToDecimal(1 / Math.Pow(2, i));
+            }
+            Console.WriteLine(uwu);
+            uwu = 1;
+            for (double i = 1; i < 30; i++)
+            {
+                uwu += Convert.ToDecimal(1.0 / ((i * 2.0) + 1.0));
+            }
+            Console.WriteLine(uwu);
+            uwu = 0;
+            for (double i = 1; i < 30; i++)
+            {
+                uwu += Convert.ToDecimal(1 / (i + Math.Pow(2, i)));
+            }
+            Console.WriteLine(uwu);
             Console.WriteLine();
         }
     }
