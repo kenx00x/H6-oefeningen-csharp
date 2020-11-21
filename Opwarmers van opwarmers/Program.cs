@@ -165,6 +165,29 @@ namespace Opwarmers_van_opwarmers
             }
             Console.WriteLine($"som = {uitkomst}");
             Console.WriteLine();
+
+            //11
+            for (int i = 0; i < 100; i++)
+            {
+                Console.Write("Geef getal in: ");
+                n = int.Parse(Console.ReadLine());
+                if (n > 0)
+                {
+                    if (n % 2 == 0)
+                    {
+                        Console.WriteLine("Het getal is deelbaar door 2");
+                    }
+                    if (n % 3 == 0)
+                    {
+                        Console.WriteLine("Het getal is deelbaar door 3");
+                    }
+                    if (n % 6 == 0)
+                    {
+                        Console.WriteLine("Het getal is deelbaar door 6");
+                    }
+                }
+            }
+            Console.WriteLine();
         }
     }
 }
