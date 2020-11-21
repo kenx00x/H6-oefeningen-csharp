@@ -108,7 +108,7 @@ namespace Opwarmers_van_opwarmers
                     gemiddelde += n;
                 }
             } while (n >= 0);
-            Console.WriteLine($"Gemiddelde = {Math.Round(gemiddelde / Convert.ToDecimal(aantal), 0)}");
+            Console.WriteLine($"Gemiddelde = {Math.Round(gemiddelde / Convert.ToDecimal(aantal-1), 0)}");
             Console.WriteLine();
 
             //7
@@ -154,6 +154,16 @@ namespace Opwarmers_van_opwarmers
                 aantal++;
             } while (oudGetal !=0 || n != 0);
             Console.WriteLine($"gemiddelde = {gemiddelde/(aantal-2)}");
+            Console.WriteLine();
+
+            //10
+            Console.WriteLine("10");
+            uitkomst = 0;
+            for (int i = 50; i < 101; i++)
+            {
+                uitkomst += i* i;
+            }
+            Console.WriteLine($"som = {uitkomst}");
             Console.WriteLine();
         }
     }
