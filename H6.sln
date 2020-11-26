@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "For doordenker (PRO)", "For
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tekenen", "Tekenen\Tekenen.csproj", "{06EEFA2C-8B1B-4CA4-BCC2-EF9B46D93AEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Steen schaar papier", "Steen schaar papier\Steen schaar papier.csproj", "{2B9CEF24-D088-4073-A54F-4F8AF719D440}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{06EEFA2C-8B1B-4CA4-BCC2-EF9B46D93AEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06EEFA2C-8B1B-4CA4-BCC2-EF9B46D93AEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06EEFA2C-8B1B-4CA4-BCC2-EF9B46D93AEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B9CEF24-D088-4073-A54F-4F8AF719D440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B9CEF24-D088-4073-A54F-4F8AF719D440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B9CEF24-D088-4073-A54F-4F8AF719D440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B9CEF24-D088-4073-A54F-4F8AF719D440}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +82,7 @@ Global
 		{0EC9363D-053E-4E81-83A9-379EE96F7F18} = {ED031796-AEE8-48DE-A687-8C1E40568779}
 		{031E2699-B8C6-4804-B65F-11177B076F67} = {ED031796-AEE8-48DE-A687-8C1E40568779}
 		{06EEFA2C-8B1B-4CA4-BCC2-EF9B46D93AEC} = {9403A03B-46E0-4620-BE74-17BAB298B8D0}
+		{2B9CEF24-D088-4073-A54F-4F8AF719D440} = {9403A03B-46E0-4620-BE74-17BAB298B8D0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3CF6B138-DEFD-4C9A-BBAC-FB2D20FBD17B}
