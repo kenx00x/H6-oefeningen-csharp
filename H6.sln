@@ -13,15 +13,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Oefeningen deel 2", "Oefeni
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Oefeningen deel 3", "Oefeningen deel 3", "{9403A03B-46E0-4620-BE74-17BAB298B8D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tafels van vermenigvuldigen", "Tafels van vermenigvuldigen\Tafels van vermenigvuldigen.csproj", "{616F2F22-5453-4DC7-BDCC-65873E46003D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tafels van vermenigvuldigen", "Tafels van vermenigvuldigen\Tafels van vermenigvuldigen.csproj", "{616F2F22-5453-4DC7-BDCC-65873E46003D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RNA Transscriptie", "RNA Transscriptie\RNA Transscriptie.csproj", "{FDC2B531-2997-4BEF-BCB2-03D7EE2C2991}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RNA Transscriptie", "RNA Transscriptie\RNA Transscriptie.csproj", "{FDC2B531-2997-4BEF-BCB2-03D7EE2C2991}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Armstrong nummer (PRO)", "Armstrong nummer (PRO)\Armstrong nummer (PRO).csproj", "{FAA2EDF1-9C78-4A07-926E-00CAF9CD1059}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Armstrong nummer (PRO)", "Armstrong nummer (PRO)\Armstrong nummer (PRO).csproj", "{FAA2EDF1-9C78-4A07-926E-00CAF9CD1059}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euler project", "Euler project\Euler project.csproj", "{0EC9363D-053E-4E81-83A9-379EE96F7F18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Euler project", "Euler project\Euler project.csproj", "{0EC9363D-053E-4E81-83A9-379EE96F7F18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "For doordenker (PRO)", "For doordenker (PRO)\For doordenker (PRO).csproj", "{031E2699-B8C6-4804-B65F-11177B076F67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "For doordenker (PRO)", "For doordenker (PRO)\For doordenker (PRO).csproj", "{031E2699-B8C6-4804-B65F-11177B076F67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tekenen", "Tekenen\Tekenen.csproj", "{06EEFA2C-8B1B-4CA4-BCC2-EF9B46D93AEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{031E2699-B8C6-4804-B65F-11177B076F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{031E2699-B8C6-4804-B65F-11177B076F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{031E2699-B8C6-4804-B65F-11177B076F67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06EEFA2C-8B1B-4CA4-BCC2-EF9B46D93AEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06EEFA2C-8B1B-4CA4-BCC2-EF9B46D93AEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06EEFA2C-8B1B-4CA4-BCC2-EF9B46D93AEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06EEFA2C-8B1B-4CA4-BCC2-EF9B46D93AEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +75,7 @@ Global
 		{FAA2EDF1-9C78-4A07-926E-00CAF9CD1059} = {ED031796-AEE8-48DE-A687-8C1E40568779}
 		{0EC9363D-053E-4E81-83A9-379EE96F7F18} = {ED031796-AEE8-48DE-A687-8C1E40568779}
 		{031E2699-B8C6-4804-B65F-11177B076F67} = {ED031796-AEE8-48DE-A687-8C1E40568779}
+		{06EEFA2C-8B1B-4CA4-BCC2-EF9B46D93AEC} = {9403A03B-46E0-4620-BE74-17BAB298B8D0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3CF6B138-DEFD-4C9A-BBAC-FB2D20FBD17B}
