@@ -25,7 +25,7 @@ namespace Tekenen
             {
                 Console.Write("*");
             }
-            for (int i = 0; i < getal2-2; i++)
+            for (int i = 0; i < getal2 - 2; i++)
             {
                 Console.WriteLine();
                 Console.Write("*");
